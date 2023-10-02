@@ -1,0 +1,13 @@
+@import './base.css';
+
+body {
+  outline: none;
+  background-color: hsl(0, 100%,100%);
+  color: hsl(0, 0%, 0%);
+}
+@media screen and (max-width: 730px) {
+  .card-container{
+  align-content: center;
+  justify-content: center;
+  }
+}
